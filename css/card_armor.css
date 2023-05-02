@@ -1,0 +1,105 @@
+.c2 .card {
+    color: #ddad0e;
+    background-image: url(/Images/Dragon_Helmet.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.c2 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #ddad0e;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.c2 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #e8f768;
+    width: 80%;
+}
+
+.c2 .card_link {
+    color: #daf9fb;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #ddad0e;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.c2 .card_link:hover,
+.c2 .card_link:focus {
+    background-color: #e8f768;
+    color: #ddad0e;
+}
+
+.c3 .card {
+    color: #ddad0e;
+    background-image: url(/Images/Golden_Helmet.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.c3 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #ddad0e;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.c3 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #e8f768;
+    width: 80%;
+}
+
+.c3 .card_link {
+    color: #daf9fb;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #ddad0e;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.c3 .card_link:hover,
+.c3 .card_link:focus {
+    background-color: #e8f768;
+    color: #ddad0e;
+}

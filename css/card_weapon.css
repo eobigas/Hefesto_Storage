@@ -1,0 +1,158 @@
+.w1 .card {
+    color: #605AEA;
+    background-image: url(/Images/Crystal_Axe.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.w1 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #605AEA;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.w1 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #D7B367;
+    width: 80%;
+}
+
+.w1 .card_link {
+    color: #D7B367;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #605AEA;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.w1 .card_link:hover,
+.w1 .card_link:focus {
+    background-color: #D7B367;
+    color: #605AEA;
+}
+
+.w2 .card {
+    color: #605AEA;
+    background-image: url(/Images/Crystal_GreatSword.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.w2 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #605AEA;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.w2 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #cecac3;
+    width: 80%;
+}
+
+.w2 .card_link {
+    color: #cecac3;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #605AEA;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.w2 .card_link:hover,
+.w2 .card_link:focus {
+    background-color: #cecac3;
+    color: #605AEA;
+}
+
+.w3 .card {
+    color: #daf9fb;
+    background-image: url(/Images/Crystal_Dagger.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.w3 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #605AEA;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.w3 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #daf9fb;
+    width: 80%;
+}
+
+.w3 .card_link {
+    color: #daf9fb;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #605AEA;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.w3 .card_link:hover,
+.w3 .card_link:focus {
+    background-color: #daf9fb;
+    color: #605AEA;
+}

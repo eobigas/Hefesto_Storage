@@ -1,0 +1,158 @@
+.b1 .card {
+    color: #f7c63f;
+    background-image: url(/Images/Lion_tamarin.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.b1 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #db671a;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.b1 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #f7c63f;
+    width: 80%;
+}
+
+.b1 .card_link {
+    color: #f7c63f;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #db671a;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.b1 .card_link:hover,
+.b1 .card_link:focus {
+    background-color: #f7c63f;
+    color: #db671a;
+}
+
+.b2 .card {
+    color: #eeed9c;
+    background-image: url(/Images/Chicken_Onions.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.b2 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #eeed9c;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.b2 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #b7b8bd;
+    width: 80%;
+}
+
+.b2 .card_link {
+    color: #b7b8bd;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #eeed9c;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.b2 .card_link:hover,
+.b2 .card_link:focus {
+    background-color: #b7b8bd;
+    color: #eeed9c;
+}
+
+.b3 .card {
+    color: #c57b5e;
+    background-image: url(/Images/Drolf.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.b3 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #77777c;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.b3 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #c57b5e;
+    width: 80%;
+}
+
+.b3 .card_link {
+    color: #77777c;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #c57b5e;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.b3 .card_link:hover,
+.b3 .card_link:focus {
+    background-color: #77777c;
+    color: #c57b5e;
+}

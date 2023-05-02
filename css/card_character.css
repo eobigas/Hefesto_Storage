@@ -1,0 +1,158 @@
+.cc1 .card {
+    color: #eec923;
+    background-image: url(/Images/Arcademus.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.cc1 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #eec923;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.cc1 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #f88e15;
+    width: 80%;
+}
+
+.cc1 .card_link {
+    color: #f88e15;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #eec923;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.cc1 .card_link:hover,
+.cc1 .card_link:focus {
+    background-color: #f88e15;
+    color: #eec923;
+}
+
+.cc2 .card {
+    color: #bacf5c;
+    background-image: url(/Images/Sir_Xard.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.cc2 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #8d8b94;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.cc2 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #bacf5c;
+    width: 80%;
+}
+
+.cc2 .card_link {
+    color: #bacf5c;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #8d8b94;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.cc2 .card_link:hover,
+.cc2 .card_link:focus {
+    background-color: #bacf5c;
+    color: #8d8b94;
+}
+
+.cc3 .card {
+    color: #d9d5f3;
+    background-image: url(/Images/Bengolas.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.cc3 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #4184d1;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.cc3 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #d9d5f3;
+    width: 80%;
+}
+
+.cc3 .card_link {
+    color: #d9d5f3;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #4184d1;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.cc3 .card_link:hover,
+.cc3 .card_link:focus {
+    background-color: #a596e7;
+    color: #4184d1;
+}

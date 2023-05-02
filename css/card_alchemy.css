@@ -1,0 +1,158 @@
+.a1 .card {
+    color: #db0c05;
+    background-image: url(/Images/Healing_potion.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.a1 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #db0c05;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.a1 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #f14418;
+    width: 80%;
+}
+
+.a1 .card_link {
+    color: #f14418;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #db0c05;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.a1 .card_link:hover,
+.a1 .card_link:focus {
+    background-color: #f14418;
+    color: #db0c05;
+}
+
+.a2 .card {
+    color: #907ee2;
+    background-image: url(/Images/waterbreathe_potion.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.a2 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #907ee2;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.a2 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #a596e7;
+    width: 80%;
+}
+
+.a2 .card_link {
+    color: #a596e7;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #7053f3;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.a2 .card_link:hover,
+.a2 .card_link:focus {
+    background-color: #a596e7;
+    color: #7053f3;
+}
+
+.a3 .card {
+    color: #d9d5f3;
+    background-image: url(/Images/speed_potion.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.a3 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #270896;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.a3 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #d9d5f3;
+    width: 80%;
+}
+
+.a3 .card_link {
+    color: #d9d5f3;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #270896;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.a3 .card_link:hover,
+.a3 .card_link:focus {
+    background-color: #a596e7;
+    color: #270896;
+}

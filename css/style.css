@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=GFS+Neohellenic&display=swap');
+
+:root {
+    font-size: 16px;
+    font-family: 'GFS Neohellenic', sans-serif;
+    --text-primary: #615d5c;
+    --text-secondary: #eabd16;
+    --bg-primary: #000000;
+    --bg-secondary: #ffffff;
+}
+
+body {
+    color: black;
+    background-color: var(--bg-secondary);
+}
+
+body::-webkit-scrollbar {
+    width: 0.75rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--text-secondary);
+}
+main {
+    margin-left: 4rem;
+    padding-bottom: 100%;
+    background-color: #615d5c;
+    padding: 6em;
+    height: 70.8vh;
+}
+
+    
+.navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+    z-index: 1;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar_nav {
+    list-style: nones;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_img {
+    width: 64px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: var(--text-primary);
+    display: flex;
+}
+.nav_item:first-child {
+    margin-bottom: 4rem;
+}
+
+.nav_item:last-child {
+    margin-top: 5rem;
+}
+
+.nav_item {
+    margin-top: 20px;
+}
+
+.link_text {
+    margin-top: 13px;
+    display: none;
+    font-size: 22px;
+}
+
+.nav_link img {
+    width: 2rem;
+    margin: 10px 1.5rem;
+}
+
+.navbar:hover,
+.navbar:focus-within {
+    width: 12rem;
+}
+
+.nav_link:hover,
+.nav_link:focus-within {
+    color: var(--text-secondary);
+}
+
+.link_text:hover,
+.link_text:focus-within {
+    color: var(--text-secondary);
+}
+
+.navbar:hover .link_text,
+.navbar:focus-within .link_text {
+    display: block;
+}
+
+.main_header {
+    font-size: 6ch;
+}
+
+.main_text {
+    font-size: 3ch;
+    max-width: 30em;
+}
+
+.main_text span,
+.main_header span{
+    color: var(--text-secondary);
+}

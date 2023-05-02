@@ -1,0 +1,111 @@
+.c1 .card {
+    color: #0661dc;
+    background-image: url(/Images/Glass_Helmet.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.card:hover,
+.card:focus-within{
+    transform: scale(1.05);
+}
+
+.card_content {
+    padding: 1em;
+    background: linear-gradient(
+        hsl(0 0% 0%/ 0),
+        hsl(20 0% 0%/ 0.3) 10%,
+        hsl(0 0% 0%/ 100)
+    );
+    transform: translateY(70%);
+    transition: transform 600ms ease;
+}
+
+.card_content > * {
+    opacity: 0;
+    transition: opacity 200ms linear;
+}
+
+.card:hover .card_content > *,
+.card:focus-within .card_content > *  {
+    opacity: 1;
+    transition-delay: 250ms;
+}
+
+.card:hover .card_content,
+.card:focus-within .card_content{
+    transform: translateY(0);
+}
+
+.card:focus-within .card_content {
+    transition-duration: 0ms;
+}
+
+.card_title {
+    font-size: 3ch;
+    padding: 2rem 0 0;
+    position: relative;
+    max-width: 100%;
+    transition: transform 200ms ease;
+}
+
+.card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #0661DC;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+.card:hover .card_title::after,
+.card:focus-within .card_title::after {
+    transform: scaleX(1);
+}
+
+.card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #daf9fb;
+    width: 80%;
+}
+
+.card_link {
+    color: #daf9fb;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #0661dc;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.card_link:hover,
+.card_link:focus {
+    background-color: #daf9fb;
+    color: #0661DC;
+}
+
+main {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 342px 342px 342px;
+}
+
+main div {
+    width: 342.39px;
+    height: 331.19px;
+}

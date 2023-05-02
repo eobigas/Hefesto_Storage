@@ -1,0 +1,158 @@
+.s1 .card {
+    color: #db671a;
+    background-image: url(/Images/fire_ball.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.s1 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #db671a;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.s1 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #D7B367;
+    width: 80%;
+}
+
+.s1 .card_link {
+    color: #D7B367;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #db671a;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.s1 .card_link:hover,
+.s1 .card_link:focus {
+    background-color: #D7B367;
+    color: #db671a;
+}
+
+.s2 .card {
+    color: #a82de0;
+    background-image: url(/Images/Dark_Summon.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.s2 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #a82de0;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.s2 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #3f5ff0;
+    width: 80%;
+}
+
+.s2 .card_link {
+    color: #040f41;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #a82de0;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.s2 .card_link:hover,
+.s2 .card_link:focus {
+    background-color: #040f41;
+    color: #a82de0;
+}
+
+.s3 .card {
+    color: #e99a33;
+    background-image: url(/Images/meteor.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    width: 40ch;
+    height: 20ch;
+    border-radius: 5%;
+    user-select: none;
+    overflow: hidden;
+    transition: transform 0.1s ease;
+}
+
+.s3 .card_title::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background: #605AEA;
+    width: 90%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: transform 500ms ease;
+}
+
+
+.s3 .card_dc{
+    font-size: 2ch;
+    padding: 5%;
+    color: #e99a33;
+    width: 80%;
+}
+
+.s3 .card_link {
+    color: #605AEA;
+    text-decoration: none;
+    font-size: 2ch;
+    padding: 0.3em 1em;
+    cursor: pointer;
+    display: inline;
+    background-color: #e99a33;
+    border-radius: 2%;
+    margin-left: 35%;
+    transition: 200ms;
+}
+
+.s3 .card_link:hover,
+.s3 .card_link:focus {
+    background-color: #605AEA;
+    color: #db671a;
+}
